@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+/* Header styles */
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* Form styles */
+form {
+    max-width: 475px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+label span {
+    margin-right: 10px;
+    flex: 0 0 auto;
+}
+
+#findOutInput {
+    width: 90px; 
+    margin-left: 30px;
+}
+
+input[type="number"] {
+    width: 100px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 10px 10px auto;
+    margin-left: 393px;
+    display: block;
+}
+
+/* Result styles */
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#graphContainer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
